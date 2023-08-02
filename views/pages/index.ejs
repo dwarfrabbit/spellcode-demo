@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="h-100" lang="pt-BR">
+
+<head>
+  <%- include('../partials/head') %>
+
+</head>
+
+<body class="d-flex flex-column h-100">
+  <%- include('../partials/header') %>
+
+    <!-- Begin page content -->
+    <main class="flex-shrink-0">
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-3">
+            <div class="card text-center" style="width: 18rem; background-color: transparent;">
+              <img class="card-img" src="/static/img/scroll.png" alt="Card image">
+              <div class="card-img-overlay">
+                <img src="/static/img/spellbook.png" class="card-img-top mt-3 w-50 rounded mx-auto d-block">
+                <div class="card-body">
+                  <h5 class="card-title">Biblioteca</h5>
+                  <p class="card-text">
+                    Nossa biblioteca de exercícios.
+                  </p>
+                  <a href="/biblioteca" class="btn btn-dark">Visitar Biblioteca</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3">
+            <div class="card text-center" style="width: 18rem; background-color: transparent;">
+              <img class="card-img" src="/static/img/bg.png" alt="Card image">
+              <div class="card-img-overlay">
+
+                <div class="card-body">
+                  <img src="/static/img/chara.png" class="card-img-top mt-3 w-50 rounded mx-auto d-block">
+                  <img src="/static/img/Stats.png" class="card-img-top mt-3 w-50 rounded mx-auto d-block">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="col-3">
+            <div class="card text-center" style="width: 18rem; background-color: transparent;">
+              <img class="card-img" src="/static/img/scroll.png" alt="Card image">
+              <div class="card-img-overlay">
+                <img src="/static/img/dragon.png" class="card-img-top mt-3 w-50 rounded mx-auto d-block">
+                <div class="card-body">
+                  <h5 class="card-title">Masmorras</h5>
+                  <p class="card-text">
+                    Enfrente os perigos das masmorras!
+                  </p>
+                  <a href="/masmorras" class="btn btn-dark">Visitar Masmorras</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+    </main>
+
+
+    <%- include ('../partials/footer') %>
+      <script src="/static/js/bootstrap.min.js"></script>
+</body>
+
+</html>

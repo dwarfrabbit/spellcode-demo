@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <%- include('../partials/head') %>
+        <link href="/static/css/signin.css" rel="stylesheet" />
+</head>
+
+<body class="text-center">
+    <main class="form-signin">
+        <form data-bitwarden-watching="1" method="post" action="/register">
+            <img class="mb-4" src="/static/img/logo.png" width="300" height="250" />
+            <h1 class="fw-bold">Nova Conta</h1>
+            <h5 class="mb-3 fw-normal">Seja bem-vindo(a)!</h5>
+
+            <div class="form-floating">
+                <input type="text" class="form-control" id="floatingInput" placeholder="Fulano" name="name" />
+                <label for="floatingInput">Nome</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="nome@acme.com" name="email" />
+                <label for="floatingInput">E-mail</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Senha" name="password" />
+                <label for="floatingPassword">Senha</label>
+            </div>
+
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPasswordConfirm" placeholder="ConfirmarSenha" name="passconfirm" />
+                <label for="floatingPasswordConfirm">Confirme a Senha</label>
+            </div>
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+                Fazer Cadastro
+            </button>
+
+            <p class="mt-5 mb-3 text-muted">© Unifor - 2022</p>
+
+        </form>
+    </main>
+</body>
+
+</html>

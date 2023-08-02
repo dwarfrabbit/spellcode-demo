@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="h-100" lang="pt-BR">
+
+<head>
+  <%- include('../../partials/head_bib') %>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+  <%- include('../../partials/header') %>
+
+    <main class="flex-shrink-0">
+      <div class="container">
+
+
+        <div class="row justify-content-center">
+
+
+          <div class="card text-center" style="width: 1440px; background-color: transparent;">
+            <img class="card-img" src="/static/img/bigscroll.png" alt="Card image">
+            <div class="card-img-overlay">
+              <br /><br />
+              <br /><br />
+              <div class="card-body">
+
+                <table class="table table-striped" style="width: 1000px; margin-left:auto;margin-right:auto;">
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Titulo</th>
+                      <th scope="col">Linguagem</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr onclick="document.location.href = '/biblioteca/exerc';">
+                      <th scope="row">1</th>
+                      <td>Hello World</td>
+                      <td>Python</td>
+                      
+                    </tr>
+                    <tr onclick="document.location.href = '/biblioteca/exerc';">
+                      <th scope="row">2</th>
+                      <td>Fibonacci</td>
+                      <td>Java</td>
+                      
+                    </tr>
+                    <tr onclick="document.location = '/biblioteca/exerc';">
+                      <th scope="row">3</th>
+                      <td>Numerais Romanos</td>
+                      <td>Haskell</td>
+                      
+                    </tr>
+                  </tbody>
+                </table>
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </main>
+
+    <%- include ('../../partials/footer') %>
+
+</body>
+
+</html>
